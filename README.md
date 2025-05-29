@@ -4,7 +4,7 @@ This project is a backend API implementation for the OptimalFlow Backend Develop
 
 ---
 
-## ✅ Features (Core Requirements)
+## Features (Core Requirements)
 
 - `POST /users` – Create user with default balance of 100
 - `POST /login` – Authenticate user and return JWT token
@@ -19,7 +19,7 @@ This project is a backend API implementation for the OptimalFlow Backend Develop
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Node.js + Express
 - bcryptjs
@@ -29,7 +29,7 @@ This project is a backend API implementation for the OptimalFlow Backend Develop
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -69,7 +69,7 @@ docker run -p 3000:3000 optimalflow-backend
 
 ---
 
-## 📮 API Endpoints
+## API Endpoints
 
 ### `POST /users`
 ```json
@@ -96,7 +96,7 @@ Returns user by ID (excluding password)
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 npm test
@@ -110,7 +110,7 @@ Tests include:
 
 ---
 
-## 🔄 Example curl Requests
+## Example curl Requests
 
 ### Create User
 ```bash
@@ -124,20 +124,19 @@ curl -X POST http://localhost:3000/login   -H "Content-Type: application/json"  
 
 ---
 
-## 📩 Postman Collection
+## Postman Collection
 
 A ready-to-use Postman collection is included. You can import it via raw text or file.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 optimalflow-backend/
 ├── controllers/
 ├── data/
 ├── models/
-├── Postman Collection (JSON)
 ├── routes/
 ├── services/
 ├── tests/
@@ -150,14 +149,13 @@ optimalflow-backend/
 
 ---
 
-## ⚠️ Notes
+## Notes!
 
 - The `/transfer` endpoint and other advanced features (e.g., database, scaling document) are **not included**, focusing instead on clean and complete Core Requirement delivery.
 - Bonus features such as Docker setup **are included** in this submission.
 
 ---
 
-## 📬 Submission
+## Submission
 
-Please find the code in this repository and contact me if you have any questions.  
-Thank you for the opportunity.
+Please contact me if you have any questions. Thank you for the opportunity.
