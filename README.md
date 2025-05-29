@@ -34,8 +34,8 @@ This project is a backend API implementation for the OptimalFlow Backend Develop
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/optimalflow-backend.git
-cd optimalflow-backend
+git clone https://github.com/Guit4r/optimalflow-backend-developer.git
+cd optimalflow-backend-developer
 ```
 
 ### 2. Install dependencies
@@ -58,13 +58,6 @@ JWT_SECRET=your_jwt_secret
 npm run dev     # for development with nodemon
 # or
 npm start       # for production
-```
-
-Or with Docker:
-
-```bash
-docker build -t optimalflow-backend .
-docker run -p 3000:3000 optimalflow-backend
 ```
 
 ---
