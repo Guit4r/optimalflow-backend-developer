@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  backend:
+    build: .
+    container_name: optimalflow-backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - PORT=3000
+      - JWT_SECRET=OptimalFlowSecret
+      # - DATABASE_URL=postgres://user:password@db:5432/optimalflow
+    restart: unless-stopped

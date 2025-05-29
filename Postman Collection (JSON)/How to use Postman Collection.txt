@@ -1,0 +1,5 @@
+วิธีใช้ใน Postman:
+
+1. เปิด Postman
+2. ไปที่เมนู “Import” → “File” → เลือกไฟล์ OptimalFlow Backend API.postman_collection.json
+3. จากจะเห็น Collection ชื่อ "OptimalFlow Backend API"
